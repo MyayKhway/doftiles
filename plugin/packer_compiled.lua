@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/kent/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["cellular-automaton.nvim"] = {
+    loaded = true,
+    path = "/home/kent/.local/share/nvim/site/pack/packer/start/cellular-automaton.nvim",
+    url = "https://github.com/eandrju/cellular-automaton.nvim"
+  },
   ["citruszest.nvim"] = {
     loaded = true,
     path = "/home/kent/.local/share/nvim/site/pack/packer/start/citruszest.nvim",
@@ -149,11 +154,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/kent/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
-  },
-  ["vim-fugitive"] = {
-    loaded = true,
-    path = "/home/kent/.local/share/nvim/site/pack/packer/start/vim-fugitive",
-    url = "https://github.com/tpope/vim-fugitive"
   }
 }
 

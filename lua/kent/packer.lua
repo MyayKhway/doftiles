@@ -16,7 +16,6 @@ return require('packer').startup(function(use)
 	  end,
   }
   use 'mbbill/undotree'
-  use 'tpope/vim-fugitive'
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v3.x',
@@ -56,4 +55,5 @@ return require('packer').startup(function(use)
   }
   use { 'saadparwaiz1/cmp_luasnip' }
   use "rafamadriz/friendly-snippets"
+  use {'eandrju/cellular-automaton.nvim'}
 end)
