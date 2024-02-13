@@ -56,4 +56,6 @@ return require('packer').startup(function(use)
   use { 'saadparwaiz1/cmp_luasnip' }
   use "rafamadriz/friendly-snippets"
   use {'eandrju/cellular-automaton.nvim'}
+  use "rebelot/kanagawa.nvim"
+
 end)

@@ -1,3 +1,1 @@
 require("kent")
-print("hello")
-
